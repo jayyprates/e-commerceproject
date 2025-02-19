@@ -1,15 +1,11 @@
+import LogoImg from '../assets/logoplaceholder.png'
+import './header.css'
+
 export function Header () {
 	return (
-		<nav>
-			<h1>E-commerce CD</h1>
-			<img />
-			<ul>
-				<li>Home</li>
-				<li>Nacionais</li>
-				<li>Interacionais</li>
-				<li>Vinis</li>
-			</ul>
+		<nav id='header'>
+			<img src={LogoImg} alt="" id='logoimg' />
+			<h1 id='title'>E-commerce CD</h1>
 		</nav>
 	)
-
 }
